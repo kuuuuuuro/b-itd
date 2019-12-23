@@ -17,8 +17,7 @@
       <div class="collapse navbar-collapse" id="target">
       <ul class="nav navbar-nav">
          <li class=""><a href="#" onclick="gotoURL('../CGI/MEDIA_LIST.EVENT_SHUZAI.CGI','_self');return false">
-           <span class="glyphicon glyphicon-volume-up" aria-hidden="true" style="margin-right:5px;"></span>イベント取
-材</a></li>
+           <span class="glyphicon glyphicon-volume-up" aria-hidden="true" style="margin-right:5px;"></span>イベント取材</a></li>
          <li class="active"><a href="#" onclick="gotoURL('../CGI/MEDIA_LIST.INI.CGI','_self');return false">
            <span class="glyphicon glyphicon-user" aria-hidden="true" style="margin-right:5px;"></span>顧客情報</a></li>
          <li class=""><a href="#" onclick="gotoURL('../CGI/MEDIA_LIST.EVENT_SET.CGI','_self');return false">
