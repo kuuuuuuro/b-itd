@@ -2,4 +2,4 @@
 
 （＾ω＾）
 
-https://kuuuuuuro.github.io/gh-tec/
+https://kuuuuuuro.github.io/b-itd/
