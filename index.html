@@ -1,19 +1,66 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                        "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
 <head>
-<meta charset="UTF-8">
-<title>TipsNote : GitHub Pages Sample</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-style-type" content="text/css" />
+    <meta http-equiv="Content-script-type" content="text/javascript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ITD:GitHub Pages Sample</title>
+    <!--<link rel="icon" href="../IMG/favicon.ico" type="image/vnd.microsoft.icon">-->
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery.multiselect.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+    <script type="text/javascript">      
+    </script>
 </head>
 
 <body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.multiselect.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      console.log('GitHub Pages Sample');
+    </script>
+  
 <main>
-  <h1>GitHub Pages のサンプルです</h1>
+      <!--ナビゲーションバー-->
+    <nav class="navbar navbar-inverse navbar-fixed-top col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+    <div class="container-fluid">
+      <!--ヘッダー部-->
+      <div class="navbar-header">
+      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#target">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-brand" style="pointer-events:none;">タイトル</a>
+      </div>
+      <!--ナビゲーション部-->
+      <div class="collapse navbar-collapse" id="target">
+      <ul class="nav navbar-nav">
+         <li class=""><a href="#" onclick="gotoURL('#','_self');return false">
+           <span class="glyphicon glyphicon-volume-up" aria-hidden="true" style="margin-right:5px;"></span>メニュー１
+</a></li>
+         <li class="active"><a href="#" onclick="gotoURL('#','_self');return false">
+           <span class="glyphicon glyphicon-user" aria-hidden="true" style="margin-right:5px;"></span>メニュー２</a></li>
+         <li class=""><a href="#" onclick="gotoURL('#','_self');return false">
+           <span class="glyphicon glyphicon-cog" aria-hidden="true" style="margin-right:5px;"></span>メニュー３</a></li>
+      </ul>
+      <!--ユーザ情報-->
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="#" style="pointer-events:none;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> ITD太郎</a></li>
+      </ul>
+      </div>
+    </div>
+    </nav>
+    <!--ナビゲーションバーEND-->
+  <h1>ITD技術紹介</h1>
   <a href="http://www.tam-tam.co.jp/tipsnote/"><button>TipsNote に戻る</button></a>
 </main>
-
-<script>
-console.log('GitHub Pages Sample');
-</script>
+  
 </body>
 </html>
